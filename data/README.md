@@ -1,8 +1,5 @@
-# EUROPROD Smart Infrastructure Advisor - Updated CSV Datasets
+# EUROPROD Smart Infrastructure Advisor - CSV Datasets
 
-Ce pack remplace les anciens fichiers.
-
-Logique retenue:
 1. questions_master + answers_master = UX conversationnelle exacte
 2. answer_impacts_rules = moteur d'inference simple
 3. regulations_master + regulation_requirements = logique reglementaire
