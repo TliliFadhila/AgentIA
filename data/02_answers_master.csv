@@ -1,0 +1,51 @@
+answer_id,question_id,answer_key,answer_label_fr_ascii,is_unknown
+A001,Q1,tertiaire_bureaux,Immeuble de bureaux,false
+A002,Q1,sante_ehpad,Sante / EHPAD,false
+A003,Q1,industrie_logistique,Industrie / Logistique,false
+A004,Q1,collectivite_enseignement,Collectivite / Enseignement,false
+A005,Q1,residentiel_logement,Residentiel / Logement,false
+A006,Q1,retail_commerce,Retail / Commerce,false
+A007,Q1,hotellerie,Hotellerie,false
+A008,Q2,reduction_energie,Reduction des consommations energetiques,false
+A009,Q2,conformite_reglementaire,Mise en conformite reglementaire,false
+A010,Q2,qai_confort,Amelioration du confort / QAI,false
+A011,Q2,maintenance_predictive,Maintenance predictive,false
+A012,Q2,supervision_globale,Supervision globale,false
+A013,Q2,sous_comptage_energetique,Sous-comptage energetique,false
+A014,Q2,pilotage_cvc,Pilotage CVC,false
+A015,Q3,reseau_ecs,Reseau ECS,false
+A016,Q3,salles_reunion_classes,Salles de reunion / classes,false
+A017,Q3,chambres_froides,Chambres froides,false
+A018,Q3,process_industriel,Process industriel,false
+A019,Q3,ventilation_cta,Ventilation / CTA,false
+A020,Q3,eclairage,Eclairage,false
+A021,Q3,comptage_electrique,Comptage electrique,false
+A022,Q3,comptage_eau,Comptage eau,false
+A023,Q3,comptage_gaz,Comptage gaz,false
+A024,Q3,qualite_air_interieur,Qualite air interieur,false
+A025,Q4,surface_moins_1000,Moins de 1000 m2,false
+A026,Q4,surface_plus_1000,Plus de 1000 m2,false
+A027,Q4,je_ne_sais_pas,Je ne sais pas,true
+A028,Q5,chauffage_simple,Chauffage simple,false
+A029,Q5,cvc_centralise,Systeme CVC centralise,false
+A030,Q5,systeme_technique_important,Systeme technique important,false
+A031,Q5,je_ne_sais_pas,Je ne sais pas,true
+A032,Q6,aucun_systeme,Aucun systeme existant,false
+A033,Q6,releves_manuels,Releves manuels,false
+A034,Q6,gtb_bms_existante,GTB / BMS existante,false
+A035,Q6,ems_existant,EMS existant,false
+A036,Q6,je_ne_sais_pas,Je ne sais pas,true
+A037,Q7,sans_travaux_oui,Oui,false
+A038,Q7,sans_travaux_non,Non,false
+A039,Q7,peu_importe,Peu importe,false
+A040,Q8,lorawan,LoRaWAN,false
+A041,Q8,modbus_rs485,Modbus RS485,false
+A042,Q8,bacnet,BACnet,false
+A043,Q8,mqtt,MQTT,false
+A044,Q8,je_ne_sais_pas,Je ne sais pas,true
+A045,Q9,decret_tertiaire,Decret Tertiaire,false
+A046,Q9,decret_bacs,Decret BACS,false
+A047,Q9,qai_erp,QAI ERP,false
+A048,Q9,iso_50001,ISO 50001,false
+A049,Q9,refacturation_mid,Refacturation MID,false
+A050,Q9,je_ne_sais_pas,Je ne sais pas,true

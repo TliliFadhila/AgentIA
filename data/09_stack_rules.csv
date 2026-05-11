@@ -1,0 +1,34 @@
+stack_rule_id,condition_type,condition_key,stack_layer,technology_id,priority_code,reason_fr_ascii
+SR0001,segment,tertiaire,connectivity,lorawan,P1,Socle IoT batiment sans fil
+SR0002,segment,tertiaire,network,lorawan_gateway,P1,Collecte capteurs terrain
+SR0003,segment,collectivites,connectivity,lorawan,P1,Socle IoT batiment sans fil
+SR0004,segment,collectivites,network,lorawan_gateway,P1,Collecte capteurs terrain
+SR0005,segment,sante,connectivity,lorawan,P1,Socle IoT batiment sans fil
+SR0006,segment,sante,network,lorawan_gateway,P1,Collecte capteurs terrain
+SR0007,segment,residentiel,connectivity,lorawan,P1,Socle IoT batiment sans fil
+SR0008,segment,residentiel,network,lorawan_gateway,P1,Collecte capteurs terrain
+SR0009,segment,retail,connectivity,lorawan,P1,Socle IoT batiment sans fil
+SR0010,segment,retail,network,lorawan_gateway,P1,Collecte capteurs terrain
+SR0011,segment,hotellerie,connectivity,lorawan,P1,Socle IoT batiment sans fil
+SR0012,segment,hotellerie,network,lorawan_gateway,P1,Collecte capteurs terrain
+SR0013,segment,industrie,connectivity,lorawan,P1,Socle IoT batiment sans fil
+SR0014,segment,industrie,network,lorawan_gateway,P1,Collecte capteurs terrain
+SR0015,segment,tertiaire,supervision,gtb_bms,P1,Pilotage batiment et CVC
+SR0016,segment,tertiaire,energy,ems,P1,Suivi energetique et reporting
+SR0017,segment,collectivites,supervision,gtb_bms,P1,Pilotage batiment et CVC
+SR0018,segment,collectivites,energy,ems,P1,Suivi energetique et reporting
+SR0019,segment,retail,supervision,gtb_bms,P1,Pilotage batiment et CVC
+SR0020,segment,retail,energy,ems,P1,Suivi energetique et reporting
+SR0021,segment,hotellerie,supervision,gtb_bms,P1,Pilotage batiment et CVC
+SR0022,segment,hotellerie,energy,ems,P1,Suivi energetique et reporting
+SR0023,segment,industrie,intelligence,edge_ai,P1,Detection locale anomalies / maintenance
+SR0024,segment,industrie,energy,ems,P1,Management energie industriel
+SR0025,segment,industrie,intelligence,digital_twin,P2,Simulation process / exploitation
+SR0026,regulation,decret_tertiaire,energy,ems,REGLEMENTAIRE,Reporting OPERAT
+SR0027,regulation,decret_bacs_70,supervision,gtb_bms,REGLEMENTAIRE,Automatisation et controle CVC
+SR0028,regulation,decret_bacs_70,actuation,hvac_actuator,REGLEMENTAIRE,Actionner le CVC
+SR0029,regulation,decret_bacs_290,supervision,gtb_bms,REGLEMENTAIRE,Automatisation et controle CVC
+SR0030,regulation,decret_bacs_290,actuation,hvac_actuator,REGLEMENTAIRE,Actionner le CVC
+SR0031,answer,sans_travaux_oui,connectivity,lorawan,P1,Retrofit sans travaux lourds
+SR0032,answer,gtb_bms_existante,protocol,bacnet,P1,Integration GTB existante
+SR0033,answer,gtb_bms_existante,protocol,modbus_rs485,P1,Integration equipements terrain

@@ -1,0 +1,26 @@
+requirement_id,regulation_id,target_type,target_key,priority_code,requirement_reason_fr_ascii
+RR0001,decret_tertiaire,technology,ems,REGLEMENTAIRE,Suivi et reporting energetique OPERAT
+RR0002,decret_tertiaire,technology,electric_meter,REGLEMENTAIRE,Suivi et reporting energetique OPERAT
+RR0003,decret_tertiaire,technology,water_meter,P1,Sous-comptage fluides pertinent pour analyse consommations
+RR0004,decret_tertiaire,technology,gas_meter,P1,Sous-comptage fluides pertinent pour analyse consommations
+RR0005,decret_bacs_290,technology,gtb_bms,REGLEMENTAIRE,Automatisation et controle du systeme CVC
+RR0006,decret_bacs_290,technology,hvac_actuator,REGLEMENTAIRE,Automatisation et controle du systeme CVC
+RR0007,decret_bacs_290,technology,temperature_humidity_sensor,REGLEMENTAIRE,Automatisation et controle du systeme CVC
+RR0008,decret_bacs_290,technology,ems,P1,Suivi energie et optimisation
+RR0009,decret_bacs_290,technology,edge_ai,P2,Optimisation locale et pilotage intelligent
+RR0010,decret_bacs_70,technology,gtb_bms,REGLEMENTAIRE,Automatisation et controle du systeme CVC
+RR0011,decret_bacs_70,technology,hvac_actuator,REGLEMENTAIRE,Automatisation et controle du systeme CVC
+RR0012,decret_bacs_70,technology,temperature_humidity_sensor,REGLEMENTAIRE,Automatisation et controle du systeme CVC
+RR0013,decret_bacs_70,technology,ems,P1,Suivi energie et optimisation
+RR0014,decret_bacs_70,technology,edge_ai,P2,Optimisation locale et pilotage intelligent
+RR0015,qai_erp,technology,co2_sensor,REGLEMENTAIRE,Evaluation aeration et mesure CO2 / conditions ambiantes
+RR0016,qai_erp,technology,temperature_humidity_sensor,REGLEMENTAIRE,Evaluation aeration et mesure CO2 / conditions ambiantes
+RR0017,qai_erp,technology,voc_sensor,P1,Suivi QAI avance et polluants
+RR0018,iso_50001,technology,ems,P1,Management energie et suivi performance
+RR0019,iso_50001,technology,electric_meter,P1,Management energie et suivi performance
+RR0020,iso_50001,technology,edge_ai,P2,Optimisation avancee
+RR0021,refacturation_mid,technology,electric_meter,REGLEMENTAIRE,Comptage certifie pour refacturation
+RR0022,loi_aper_parking,technology,ems,P1,Suivi production/consommation ENR
+RR0023,loi_aper_parking,technology,electric_meter,P1,Mesure energie produite et consommee
+RR0024,loi_lom_irve,technology,electric_meter,P1,Suivi consommation IRVE
+RR0025,loi_lom_irve,technology,ems,P1,Pilotage charges et integration energie

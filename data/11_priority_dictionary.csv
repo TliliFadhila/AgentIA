@@ -1,0 +1,5 @@
+priority_code,priority_label_fr_ascii,meaning_fr_ascii,report_color,sort_order
+REGLEMENTAIRE,Reglementaire,Equipement ou brique justifie par une obligation reglementaire ou une conformite declaree,red,1
+REGLEMENTAIRE_CANDIDATE,Reglementaire a verifier,Potentiellement obligatoire ; necessite verification terrain ou donnees techniques exactes,orange,2
+P1,Prioritaire,"Fort impact metier, ROI ou socle technique recommande",blue,3
+P2,Secondaire,"Optimisation, confort avance, maintenance ou valeur additionnelle",gray,4

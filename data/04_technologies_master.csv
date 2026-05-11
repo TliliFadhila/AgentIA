@@ -1,0 +1,29 @@
+technology_id,technology_label_fr_ascii,technology_category,technical_role_fr_ascii
+lorawan,LoRaWAN,connectivity,connectivite radio longue portee basse consommation pour capteurs batiment sans travaux lourds
+modbus_rs485,Modbus RS485,protocol,"protocole terrain pour integration automates, compteurs et GTB"
+bacnet,BACnet,protocol,protocole batiment pour integration GTB/BMS
+mqtt,MQTT,protocol,protocole data IoT pour integration plateforme et supervision
+gtb_bms,GTB / BMS,supervision,"supervision et pilotage technique batiment, CVC, eclairage, alarmes"
+ems,EMS,supervision_energie,"suivi energetique, reporting, detection derives et pilotage performance"
+edge_ai,Edge AI / Nerva Edge,intelligence_embarquee,"traitement local, filtrage, decision temps reel, resilience hors cloud"
+digital_twin,Jumeau numerique,intelligence_simulation,modelisation et simulation energetique / exploitation
+hypervision,Hypervision,supervision,vision consolidee multi-sites et multi-systemes
+lorawan_gateway,Passerelle LoRaWAN,network,collecte capteurs LoRaWAN et remontee plateforme
+co2_sensor,Capteur CO2,sensor_qai,mesure CO2 pour QAI et pilotage ventilation selon occupation
+voc_sensor,Capteur COV,sensor_qai,mesure composes organiques volatils pour QAI avancee
+temperature_humidity_sensor,Capteur temperature humidite,sensor_comfort,suivi confort thermique et conditions ambiantes
+luminosity_sensor,Capteur luminosite,sensor_comfort,mesure lux pour eclairage et confort
+presence_pir_sensor,Capteur presence PIR,sensor_occupancy,detection occupation pour CVC/eclairage
+electric_meter,Compteur electrique,metering,sous-comptage electrique et suivi consommation
+water_meter,Compteur eau,metering,suivi consommation eau et detection derive
+gas_meter,Compteur gaz,metering,suivi consommation gaz
+thermal_energy_meter,Compteur energie thermique,metering,suivi chaleur/froid et reseaux thermiques
+hvac_actuator,Actionneur CVC,actuator,"pilotage chauffage, ventilation, climatisation"
+relay_actuator,Relais sec,actuator,commande ON/OFF equipements
+motorized_valve,Vanne motorisee,actuator,pilotage hydraulique/chauffage
+differential_pressure_sensor,Capteur pression differentielle,sensor_process,"surveillance CTA, filtres et ventilation"
+vibration_sensor,Capteur vibration,sensor_industry,maintenance predictive equipements rotatifs
+pressure_sensor,Capteur pression,sensor_process,"surveillance process, reseaux fluides"
+temperature_logger,Enregistreur temperature,sensor_traceability,suivi temperature avec historique pour froid/process
+leak_sensor,Detecteur fuite eau,sensor_safety,detection fuite et prevention degats
+smoke_detector_lorawan,Detecteur fumee LoRaWAN,sensor_safety,securite incendie et telemaintenance

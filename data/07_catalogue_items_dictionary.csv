@@ -1,0 +1,24 @@
+item_id,item_label_fr_ascii,catalogue_category_fr_ascii,catalogue_pages,source_in_catalogue,default_priority
+co2_sensor,Capteur CO2,Confort et QAI,"11,15,17,20,26",Capteurs QAI / cas d'usage smart building et smart public,P1
+voc_sensor,Capteur COV,Confort et QAI,"11,15,17,20,26",Capteurs QAI,P2
+temperature_humidity_sensor,Capteur temperature humidite,Confort et ambiance,"11,15,16,17,20,26",Capteurs T/HR,P1
+luminosity_sensor,Capteur luminosite,Confort et ambiance,"11,20,26",Capteurs luminosite,P2
+presence_pir_sensor,Capteur presence PIR,Occupation,"11,15,17,26",Presence / occupation,P1
+electric_meter,Compteur electrique,Energie et fluides,"11,15,17,18,21,26",Comptage electrique,P1
+water_meter,Compteur eau,Energie et fluides,"11,16,25,26",Comptage eau,P1
+gas_meter,Compteur gaz,Energie et fluides,"11,24,26",Comptage gaz,P1
+thermal_energy_meter,Compteur energie thermique,Energie et fluides,"24,25,26",Comptage thermique,P2
+lorawan_gateway,Passerelle LoRaWAN,Infrastructure reseau,"8,11,22",Passerelles LoRaWAN,P1
+gtb_bms,GTB / BMS,Logiciel supervision,12,GTB / BMS,P1
+ems,EMS energetique,Logiciel energie,12,EMS,P1
+edge_ai,Edge AI / Nerva Edge,Intelligence embarquee,"8,12",IA predictive / pilotage autonome / edge,P2
+digital_twin,Jumeau numerique,Jumeau numerique,"8,12",Jumeau numerique,P2
+hvac_actuator,Actionneur CVC,Actionneurs pilotage,"23,26",Actionneurs CVC,P1
+relay_actuator,Relais sec,Actionneurs pilotage,"23,26",Relais,P2
+motorized_valve,Vanne motorisee,Actionneurs pilotage,"23,26",Vannes motorisees,P2
+differential_pressure_sensor,Capteur pression differentielle,Process et industrie,"18,26",Pression differentielle / ventilation,P1
+vibration_sensor,Capteur vibrations,Process et industrie,"11,18,26",Maintenance predictive,P1
+pressure_sensor,Capteur pression process,Process et industrie,"11,18,26",Pression process,P1
+temperature_logger,Enregistreur temperature,Securite et tracabilite,26,Enregistreur temperature,P1
+leak_sensor,Detecteur fuite eau,Securite et alarmes,"11,16,26",Detection fuites eau,P1
+smoke_detector_lorawan,Detecteur fumee LoRaWAN,Securite et alarmes,"11,16,26",DAAF / detection fumee,P1

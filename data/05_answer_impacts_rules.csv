@@ -1,0 +1,74 @@
+rule_id,answer_key,target_type,target_key,priority_code,reason_fr_ascii
+IR0001,tertiaire_bureaux,segment,tertiaire,P1,Detection automatique du segment principal
+IR0002,sante_ehpad,segment,sante,P1,Detection automatique du segment principal
+IR0003,industrie_logistique,segment,industrie,P1,Detection automatique du segment principal
+IR0004,collectivite_enseignement,segment,collectivites,P1,Detection automatique du segment principal
+IR0005,residentiel_logement,segment,residentiel,P1,Detection automatique du segment principal
+IR0006,retail_commerce,segment,retail,P1,Detection automatique du segment principal
+IR0007,hotellerie,segment,hotellerie,P1,Detection automatique du segment principal
+IR0008,reduction_energie,technology,ems,P1,Reduction energie necessite mesure et suivi energetique
+IR0009,reduction_energie,technology,electric_meter,P1,Reduction energie necessite mesure et suivi energetique
+IR0010,reduction_energie,technology,edge_ai,P2,Optimisation locale et detection derives par intelligence embarquee
+IR0011,conformite_reglementaire,output_flag,regulatory_focus,P1,Le rapport doit prioriser les obligations reglementaires
+IR0012,qai_confort,technology,co2_sensor,P1,QAI et confort exigent mesure CO2
+IR0013,qai_confort,technology,temperature_humidity_sensor,P1,Confort thermique
+IR0014,qai_confort,technology,voc_sensor,P2,QAI avancee
+IR0015,maintenance_predictive,technology,vibration_sensor,P1,Maintenance predictive sur equipements rotatifs
+IR0016,maintenance_predictive,technology,edge_ai,P1,Analyse locale et detection anomalies
+IR0017,supervision_globale,technology,hypervision,P1,Consolidation multi-systemes
+IR0018,supervision_globale,technology,gtb_bms,P1,Pilotage technique centralise
+IR0019,sous_comptage_energetique,technology,electric_meter,P1,Sous-comptage electrique
+IR0020,sous_comptage_energetique,regulation,refacturation_mid,P2,MID si refacturation
+IR0021,pilotage_cvc,technology,gtb_bms,P1,Pilotage CVC necessite GTB/BMS
+IR0022,pilotage_cvc,technology,hvac_actuator,P1,Pilotage CVC necessite actionneurs
+IR0023,reseau_ecs,technology,temperature_humidity_sensor,P1,Recommandation liee a l'installation reseau_ecs
+IR0024,reseau_ecs,technology,thermal_energy_meter,P1,Recommandation liee a l'installation reseau_ecs
+IR0025,reseau_ecs,technology,water_meter,P1,Recommandation liee a l'installation reseau_ecs
+IR0026,salles_reunion_classes,technology,co2_sensor,P1,Recommandation liee a l'installation salles_reunion_classes
+IR0027,salles_reunion_classes,technology,temperature_humidity_sensor,P1,Recommandation liee a l'installation salles_reunion_classes
+IR0028,salles_reunion_classes,technology,presence_pir_sensor,P1,Recommandation liee a l'installation salles_reunion_classes
+IR0029,salles_reunion_classes,technology,voc_sensor,P2,Recommandation liee a l'installation salles_reunion_classes
+IR0030,chambres_froides,technology,temperature_logger,P1,Recommandation liee a l'installation chambres_froides
+IR0031,process_industriel,technology,vibration_sensor,P1,Recommandation liee a l'installation process_industriel
+IR0032,process_industriel,technology,pressure_sensor,P1,Recommandation liee a l'installation process_industriel
+IR0033,process_industriel,technology,temperature_logger,P1,Recommandation liee a l'installation process_industriel
+IR0034,process_industriel,technology,edge_ai,P2,Recommandation liee a l'installation process_industriel
+IR0035,ventilation_cta,technology,differential_pressure_sensor,P1,Recommandation liee a l'installation ventilation_cta
+IR0036,ventilation_cta,technology,co2_sensor,P1,Recommandation liee a l'installation ventilation_cta
+IR0037,ventilation_cta,technology,hvac_actuator,P1,Recommandation liee a l'installation ventilation_cta
+IR0038,eclairage,technology,luminosity_sensor,P1,Recommandation liee a l'installation eclairage
+IR0039,eclairage,technology,presence_pir_sensor,P1,Recommandation liee a l'installation eclairage
+IR0040,eclairage,technology,relay_actuator,P1,Recommandation liee a l'installation eclairage
+IR0041,comptage_electrique,technology,electric_meter,P1,Recommandation liee a l'installation comptage_electrique
+IR0042,comptage_eau,technology,water_meter,P1,Recommandation liee a l'installation comptage_eau
+IR0043,comptage_eau,technology,leak_sensor,P1,Recommandation liee a l'installation comptage_eau
+IR0044,comptage_gaz,technology,gas_meter,P1,Recommandation liee a l'installation comptage_gaz
+IR0045,qualite_air_interieur,technology,co2_sensor,P1,Recommandation liee a l'installation qualite_air_interieur
+IR0046,qualite_air_interieur,technology,voc_sensor,P2,Recommandation liee a l'installation qualite_air_interieur
+IR0047,qualite_air_interieur,technology,temperature_humidity_sensor,P1,Recommandation liee a l'installation qualite_air_interieur
+IR0048,surface_plus_1000,regulation,decret_tertiaire,REGLEMENTAIRE,Surface >1000m2 : logique Decret Tertiaire / OPERAT
+IR0049,surface_plus_1000,technology,ems,REGLEMENTAIRE,EMS recommande pour suivi OPERAT
+IR0050,surface_plus_1000,technology,electric_meter,REGLEMENTAIRE,Sous-comptage pour suivi energie
+IR0051,cvc_centralise,regulation,decret_bacs_70,REGLEMENTAIRE_CANDIDATE,CVC centralise : verifier puissance 70kW
+IR0052,cvc_centralise,technology,gtb_bms,P1,GTB/BMS recommandee pour CVC centralise
+IR0053,cvc_centralise,technology,hvac_actuator,P1,Actionneurs requis pour pilotage CVC
+IR0054,systeme_technique_important,regulation,decret_bacs_290,REGLEMENTAIRE_CANDIDATE,Systeme technique important : verifier seuil 290kW
+IR0055,systeme_technique_important,technology,gtb_bms,P1,GTB/BMS fortement recommandee
+IR0056,systeme_technique_important,technology,edge_ai,P2,Optimisation locale avancée
+IR0057,aucun_systeme,technology,lorawan_gateway,P1,Bâtiment aveugle : demarrer par collecte terrain
+IR0058,aucun_systeme,technology,lorawan,P1,Retrofit rapide par LoRaWAN
+IR0059,releves_manuels,technology,ems,P1,Automatiser releves et reporting
+IR0060,gtb_bms_existante,protocol,bacnet,P1,Integration GTB existante
+IR0061,gtb_bms_existante,protocol,modbus_rs485,P1,Integration terrain existant
+IR0062,ems_existant,technology,lorawan_gateway,P1,Completer EMS par donnees terrain
+IR0063,sans_travaux_oui,technology,lorawan,P1,Solution sans travaux lourds : LoRaWAN prioritaire
+IR0064,sans_travaux_oui,technology,lorawan_gateway,P1,Passerelle LoRaWAN pour collecte
+IR0065,lorawan,protocol,lorawan,P1,Exigence communication declaree par le client
+IR0066,modbus_rs485,protocol,modbus_rs485,P1,Exigence communication declaree par le client
+IR0067,bacnet,protocol,bacnet,P1,Exigence communication declaree par le client
+IR0068,mqtt,protocol,mqtt,P1,Exigence communication declaree par le client
+IR0069,decret_tertiaire,regulation,decret_tertiaire,REGLEMENTAIRE,Obligation declaree par le client
+IR0070,decret_bacs,regulation,decret_bacs_70,REGLEMENTAIRE,Obligation declaree par le client
+IR0071,qai_erp,regulation,qai_erp,REGLEMENTAIRE,Obligation declaree par le client
+IR0072,iso_50001,regulation,iso_50001,REGLEMENTAIRE,Obligation declaree par le client
+IR0073,refacturation_mid,regulation,refacturation_mid,REGLEMENTAIRE,Obligation declaree par le client

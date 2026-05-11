@@ -1,0 +1,67 @@
+segment_id,item_id,priority_code,reason_fr_ascii
+tertiaire,co2_sensor,P1,Baseline segment tertiaire
+tertiaire,temperature_humidity_sensor,P1,Baseline segment tertiaire
+tertiaire,electric_meter,P1,Baseline segment tertiaire
+tertiaire,presence_pir_sensor,P1,Baseline segment tertiaire
+tertiaire,gtb_bms,P1,Baseline segment tertiaire
+tertiaire,ems,P1,Baseline segment tertiaire
+tertiaire,voc_sensor,P2,Optimisation segment tertiaire
+tertiaire,luminosity_sensor,P2,Optimisation segment tertiaire
+tertiaire,water_meter,P2,Optimisation segment tertiaire
+tertiaire,gas_meter,P2,Optimisation segment tertiaire
+tertiaire,edge_ai,P2,Optimisation segment tertiaire
+tertiaire,digital_twin,P2,Optimisation segment tertiaire
+collectivites,co2_sensor,P1,Baseline collectivites / enseignement
+collectivites,voc_sensor,P1,Baseline collectivites / enseignement
+collectivites,temperature_humidity_sensor,P1,Baseline collectivites / enseignement
+collectivites,electric_meter,P1,Baseline collectivites / enseignement
+collectivites,gtb_bms,P1,Baseline collectivites / enseignement
+collectivites,ems,P1,Baseline collectivites / enseignement
+collectivites,presence_pir_sensor,P2,Optimisation collectivités
+collectivites,water_meter,P2,Optimisation collectivités
+collectivites,gas_meter,P2,Optimisation collectivités
+collectivites,luminosity_sensor,P2,Optimisation collectivités
+collectivites,edge_ai,P2,Optimisation collectivités
+sante,temperature_humidity_sensor,P1,Baseline sante/EHPAD
+sante,water_meter,P1,Baseline sante/EHPAD
+sante,leak_sensor,P1,Baseline sante/EHPAD
+sante,smoke_detector_lorawan,P1,Baseline sante/EHPAD
+sante,thermal_energy_meter,P1,Baseline sante/EHPAD
+sante,co2_sensor,P2,Optimisation sante/EHPAD
+sante,ems,P2,Optimisation sante/EHPAD
+sante,gtb_bms,P2,Optimisation sante/EHPAD
+residentiel,temperature_humidity_sensor,P1,Baseline residentiel
+residentiel,water_meter,P1,Baseline residentiel
+residentiel,leak_sensor,P1,Baseline residentiel
+residentiel,smoke_detector_lorawan,P1,Baseline residentiel
+residentiel,co2_sensor,P2,Optimisation residentiel
+residentiel,electric_meter,P2,Optimisation residentiel
+residentiel,ems,P2,Optimisation residentiel
+retail,electric_meter,P1,Baseline retail
+retail,presence_pir_sensor,P1,Baseline retail
+retail,co2_sensor,P1,Baseline retail
+retail,ems,P1,Baseline retail
+retail,luminosity_sensor,P2,Optimisation retail
+retail,water_meter,P2,Optimisation retail
+retail,gtb_bms,P2,Optimisation retail
+retail,edge_ai,P2,Optimisation retail
+hotellerie,temperature_humidity_sensor,P1,Baseline hotellerie
+hotellerie,water_meter,P1,Baseline hotellerie
+hotellerie,electric_meter,P1,Baseline hotellerie
+hotellerie,gtb_bms,P1,Baseline hotellerie
+hotellerie,ems,P1,Baseline hotellerie
+hotellerie,co2_sensor,P2,Optimisation hotellerie
+hotellerie,presence_pir_sensor,P2,Optimisation hotellerie
+hotellerie,leak_sensor,P2,Optimisation hotellerie
+hotellerie,edge_ai,P2,Optimisation hotellerie
+industrie,vibration_sensor,P1,Baseline industrie/logistique
+industrie,electric_meter,P1,Baseline industrie/logistique
+industrie,pressure_sensor,P1,Baseline industrie/logistique
+industrie,differential_pressure_sensor,P1,Baseline industrie/logistique
+industrie,temperature_logger,P1,Baseline industrie/logistique
+industrie,ems,P1,Baseline industrie/logistique
+industrie,edge_ai,P1,Baseline industrie/logistique
+industrie,co2_sensor,P2,Optimisation industrie
+industrie,gas_meter,P2,Optimisation industrie
+industrie,water_meter,P2,Optimisation industrie
+industrie,digital_twin,P2,Optimisation industrie

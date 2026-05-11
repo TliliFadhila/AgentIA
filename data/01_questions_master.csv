@@ -1,0 +1,10 @@
+question_id,question_key,step_order,question_label_fr_ascii,input_type,is_required,allow_unknown,purpose,client_visible
+Q1,building_type,1,Quel type de batiment souhaitez-vous equiper ?,single,true,false,detect_segment,true
+Q2,main_objective,2,Quel est votre objectif principal ?,single,true,false,detect_business_need,true
+Q3,installations_to_supervise,3,Quelles installations souhaitez-vous superviser ?,multi,true,false,trigger_catalogue_items,true
+Q4,building_surface,4,Quelle est approximativement la surface totale du batiment ?,single,true,true,detect_decret_tertiaire,true
+Q5,cvc_system,5,Votre batiment dispose-t-il d'un systeme de chauffage/climatisation important ?,single,true,true,detect_bacs_candidate,true
+Q6,supervision_level,6,Quel est l'etat actuel de votre supervision technique ?,single,true,true,detect_integration_strategy,true
+Q7,deployment_constraints,7,Souhaitez-vous une solution sans travaux lourds ?,single,true,false,detect_retrofit_strategy,true
+Q8,connectivity_requirements,8,Avez-vous des exigences de communication ou d'integration ?,multi,false,true,detect_protocols,true
+Q9,regulatory_requirements,9,Votre projet est-il concerne par des obligations reglementaires ?,multi,false,true,detect_declared_regulations,true

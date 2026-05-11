@@ -1,0 +1,10 @@
+section_id,section_key,section_label_fr_ascii,display_order,data_source
+S1,executive_summary,Resume executif,1,"segment, objectives, regulations, stack"
+S2,client_profile,Profil projet,2,user_answers
+S3,detected_constraints,Contraintes detectees,3,regulations + answers
+S4,regulatory_recommendations,Recommandations reglementaires,4,regulation_requirements
+S5,priority_recommendations,Recommandations prioritaires,5,impacts + segment_baseline
+S6,secondary_recommendations,Recommandations secondaires,6,impacts + segment_baseline
+S7,technology_stack,Stack technologique recommandee,7,stack_rules
+S8,technical_justification,Justification technique,8,reasons
+S9,next_steps,Prochaines etapes,9,static_template
