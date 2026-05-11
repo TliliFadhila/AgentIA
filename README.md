@@ -1,5 +1,4 @@
 # EUROPROD SMART INFRASTRUCTURE ADVISOR
-## README COMPLET — Développement MVP V1
 ### Agent Conversationnel IoT / GTB / EMS / Edge AI
 
 ---
@@ -25,9 +24,9 @@ Le moteur agit comme :
 
 ---
 
-# 2. OBJECTIF DU MVP
+# 2. OBJECTIF
 
-Le MVP doit permettre :
+L'agent doit permettre :
 
 ## Entrée
 L’utilisateur répond à une série de questions guidées.
@@ -51,16 +50,6 @@ Le système génère :
 - rapport imprimable.
 
 ---
-
-# 3. INITIALISATION DU PROJET
-
-## Création du projet
-
-```bash
-mkdir europrod-agent
-cd europrod-agent
----
-```
 
 # 3. STRUCTURE PROJET
 
