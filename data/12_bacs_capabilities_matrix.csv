@@ -1,0 +1,10 @@
+capability_id,capability_name,mandatory,description,linked_technology,bacs_class
+energy_monitoring,Suivi énergétique continu,yes,Suivi horaire des consommations par zone,ems,C
+continuous_analysis,Analyse continue,yes,Analyse temps réel des données énergétiques,ems,C
+loss_detection,Détection dérives,yes,Détection pertes efficacité énergétique,edge_ai,C
+alerts,Alerting exploitation,yes,Alertes automatiques exploitant,dashboard,C
+interoperability,Interopérabilité,yes,Compatibilité protocoles ouverts,bacnet,C
+manual_override,Arrêt manuel,yes,Fonctionnement autonome sans supervision,gtb_bms,C
+scenario_engine,Scénarios automatiques,no,Pilotage intelligent selon occupation,edge_ai,B
+predictive_control,Commande prédictive,no,Optimisation météo et occupation,digital_twin,A
+grid_communication,Communication Ecowatt/Ecogaz,no,Communication smart grid,smart_grid,A

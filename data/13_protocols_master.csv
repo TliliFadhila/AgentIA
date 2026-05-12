@@ -1,0 +1,6 @@
+protocol_id,protocol_name,type,use_case,priority
+lorawan,LoRaWAN,wireless,retrofit_high_scalability,high
+bacnet,BACnet,gtb_protocol,bms_interoperability,critical
+modbus,Modbus RS485,industrial_protocol,metering_and_automation,critical
+mqtt,MQTT,iot_protocol,edge_and_cloud,medium
+knx,KNX,building_protocol,smart_building,medium

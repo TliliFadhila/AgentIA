@@ -1,0 +1,6 @@
+roi_id,use_case,expected_gain,typical_roi,priority
+energy_monitoring,ems,15_percent,24_months,high
+gtb_automation,bacs,20_percent,36_months,high
+qai_monitoring,comfort,non_energy,strategic,medium
+predictive_maintenance,edge_ai,maintenance_reduction,36_months,high
+occupancy_optimization,digital_twin,space_optimization,48_months,medium

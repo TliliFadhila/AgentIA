@@ -1,0 +1,7 @@
+regulation_id,regulation_name,trigger_type,trigger_condition,building_scope,deadline,mandatory_technologies,mandatory_functions,recommended_stack,roi_logic,inspection_required,data_retention,interoperability_required,minimum_bacs_class,priority_level,official_source
+decret_tertiaire,Decret Tertiaire,surface,building_surface > 1000,tertiaire,2030,ems|electric_meter|water_meter|gas_meter,energy_reporting|operat_reporting,EMS|IoT|LoRaWAN|Dashboard,energy_optimization,no,5_years,no,C,REGLEMENTAIRE,operat
+decret_bacs_290,Decret BACS >290kW,cvc_power,cvc_power > 290,tertiaire,2025,gtb_bms|ems|actionneurs|temperature_sensor,automation|regulation|continuous_monitoring,GTB/BMS|EMS|BACnet|Modbus|Edge_AI,energy_and_automation,yes,5_years,yes,C,REGLEMENTAIRE,bacs
+decret_bacs_70,Decret BACS >70kW,cvc_power,cvc_power > 70,tertiaire,2030,gtb_bms|ems|temperature_sensor,automation|energy_monitoring,GTB/BMS|IoT|LoRaWAN|BACnet,energy_optimization,yes,5_years,yes,C,REGLEMENTAIRE,bacs
+qai_erp,QAI ERP,building_type,collectivite_enseignement,erp,immediate,co2_sensor|voc_sensor|temperature_sensor,qai_monitoring,IoT|LoRaWAN|Dashboard,health_and_comfort,no,2_years,no,C,PRIORITAIRE,qai
+loi_aper,LOI APER,parking_surface,parking_surface > 1500,tertiaire,2026,solar_monitoring|energy_meter,solar_production_monitoring,EMS|Energy_Analytics,renewable_energy,no,5_years,no,C,PRIORITAIRE,aper
+loi_lom,LOM IRVE,parking_capacity,parking_capacity > threshold,tertiaire,2025,irve_monitoring|electric_meter,irve_supervision,EMS|IoT|Dashboard,mobility_transition,no,5_years,no,C,PRIORITAIRE,lom
